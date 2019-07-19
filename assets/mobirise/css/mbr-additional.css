@@ -1878,15 +1878,39 @@ body {
   color: #232323;
   text-align: center;
 }
-.cid-rsGPJ3OuHi {
+.cid-rwEJFJwktT {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rwEJFJwktT .line {
+  background-color: #ffffff;
+  color: #ffffff;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rwEJFJwktT .section-text {
+  padding: 2rem 0;
+  color: #ff0606;
+}
+.cid-rwEJFJwktT .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rwEJFJwktT .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-rwEJmqQhYo {
   padding-top: 30px;
   padding-bottom: 30px;
   background-image: url("../../../assets/images/mbr-1-1920x1279.jpg");
 }
-.cid-rsGPJ3OuHi .list-group-item {
+.cid-rwEJmqQhYo .list-group-item {
   padding: .75rem 3.25rem;
 }
-.cid-rsGPJ3OuHi .plan {
+.cid-rwEJmqQhYo .plan {
   word-break: break-word;
   position: relative;
   max-width: 300px;
@@ -1894,13 +1918,13 @@ body {
   padding-left: 0;
   color: #767676;
 }
-.cid-rsGPJ3OuHi .plan .list-group-item {
+.cid-rwEJmqQhYo .plan .list-group-item {
   position: relative;
   -webkit-justify-content: center;
   justify-content: center;
   border: 0;
 }
-.cid-rsGPJ3OuHi .plan .list-group-item::after {
+.cid-rwEJmqQhYo .plan .list-group-item::after {
   position: absolute;
   bottom: 0;
   left: 20%;
@@ -1909,39 +1933,39 @@ body {
   content: "";
   background-color: #eaeaea;
 }
-.cid-rsGPJ3OuHi .plan .list-group-item:last-child::after {
+.cid-rwEJmqQhYo .plan .list-group-item:last-child::after {
   display: none;
 }
-.cid-rsGPJ3OuHi .plan-header {
+.cid-rwEJmqQhYo .plan-header {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.cid-rsGPJ3OuHi .plan-header,
-.cid-rsGPJ3OuHi .plan-body {
+.cid-rwEJmqQhYo .plan-header,
+.cid-rwEJmqQhYo .plan-body {
   background-color: #fff;
 }
-.cid-rsGPJ3OuHi .price-figure {
+.cid-rwEJmqQhYo .price-figure {
   font-weight: 700;
   color: #ff3366;
 }
-.cid-rsGPJ3OuHi .price-value {
+.cid-rwEJmqQhYo .price-value {
   font-weight: 700;
   vertical-align: top;
 }
 @media (max-width: 550px) {
-  .cid-rsGPJ3OuHi .price-figure {
+  .cid-rwEJmqQhYo .price-figure {
     font-size: 4.25rem;
   }
 }
-.cid-rsGPJ3OuHi UL {
+.cid-rwEJmqQhYo UL {
   text-align: center;
 }
-.cid-rsGPJ3OuHi .plan-title {
+.cid-rwEJmqQhYo .plan-title {
   color: #232323;
 }
 .cid-rujho6zPds {
   padding-top: 15px;
-  padding-bottom: 60px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-rujho6zPds .mbr-text,
@@ -1951,8 +1975,44 @@ body {
 .cid-rujho6zPds .mbr-text P {
   text-align: center;
 }
+.cid-rwEJnSD67o {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #efefef;
+}
+.cid-rwEJnSD67o h4 {
+  text-align: left;
+  font-weight: 500;
+}
+.cid-rwEJnSD67o p {
+  color: #767676;
+  text-align: left;
+  margin-bottom: 0;
+}
+.cid-rwEJnSD67o .card-img {
+  text-align: left;
+  background-color: #ffffff;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 3rem 2.5rem 0 2.5rem;
+}
+.cid-rwEJnSD67o .card-img span {
+  font-size: 72px;
+  color: #707070;
+}
+.cid-rwEJnSD67o .card-box {
+  padding: 0rem 2.5rem 3rem 2.5rem;
+  background-color: #ffffff;
+}
+.cid-rwEJnSD67o P {
+  text-align: center;
+}
+.cid-rwEJnSD67o .card-title,
+.cid-rwEJnSD67o .card-img {
+  text-align: center;
+}
 .cid-rsHszVHNyX {
-  padding-top: 0px;
+  padding-top: 30px;
   padding-bottom: 45px;
   background-color: #ffffff;
 }
@@ -2001,7 +2061,7 @@ body {
 }
 .cid-rsHjZfCUcR {
   padding-top: 75px;
-  padding-bottom: 150px;
+  padding-bottom: 135px;
   background-image: url("../../../assets/images/mbr-3-1920x1280.jpg");
 }
 .cid-rsHjZfCUcR .mbr-overlay {
