@@ -44,7 +44,7 @@
       }
     ],
     "uniqCompNum": 47,
-    "versionPublish": "4.10.3",
+    "versionPublish": "4.10.2",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
@@ -61,7 +61,7 @@
         "main": true,
         "title": " Virtuálne sídlo Bratislava",
         "meta_descr": "Virtual Office Bratislava - Registračné sídlo v centre Bratislavy s 10 ročnou skúsenosťou, stovky spokojních zákazníkov.",
-        "header_custom": "<!-- Load Facebook SDK for JavaScript -->\n<div id=\"fb-root\"></div>\n<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      xfbml            : true,\n      version          : 'v3.3'\n    });\n  };\n\n  (function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n  fjs.parentNode.insertBefore(js, fjs);\n}(document, 'script', 'facebook-jssdk'));</script>\n\n<!-- Your customer chat code -->\n<div class=\"fb-customerchat\"\n  attribution=setup_tool\n  page_id=\"1573391446264893\"\n  theme_color=\"#20cef5\"\n  logged_in_greeting=\"Dobrý deň!\"\n  logged_out_greeting=\"Dobrý deň!\">\n</div>",
+        "header_custom": "<!-- Global site tag (gtag.js) - Google Ads: 1026832826 -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-1026832826\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-1026832826');\n</script>\n\n\n<!-- Load Facebook SDK for JavaScript -->\n<div id=\"fb-root\"></div>\n<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      xfbml            : true,\n      version          : 'v3.3'\n    });\n  };\n\n  (function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n  fjs.parentNode.insertBefore(js, fjs);\n}(document, 'script', 'facebook-jssdk'));</script>\n\n<!-- Your customer chat code -->\n<div class=\"fb-customerchat\"\n  attribution=setup_tool\n  page_id=\"1573391446264893\"\n  theme_color=\"#20cef5\"\n  logged_in_greeting=\"Dobrý deň!\"\n  logged_out_greeting=\"Dobrý deň!\">\n</div>\n\n",
         "footer_custom": "",
         "html_before": ""
       },
@@ -811,6 +811,7 @@
           "_name": "gallery1",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Teljes szélesség\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" inline>\n        <input type=\"color\" title=\"Fedőszín\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Színátmenetes fedés\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Fedőszín 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Fedőszín áttetszőség\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Háttérszín\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galéria\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n    </div>\n\n</section>",
           "_cid": "rxdNUlCzoF",
+          "_anchor": "gallery1-19",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -877,8 +878,7 @@
                 "active": false
               }
             ]
-          },
-          "_anchor": "gallery1-19"
+          }
         },
         {
           "alias": false,
