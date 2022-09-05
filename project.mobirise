@@ -62,11 +62,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "publishChangesOnly": true,
-    "screenshot": "screenshot.png",
-    "publishType": "github",
-    "mbrsite": "mbrsite://%7B%22id%22%3A245231%2C%22domain%22%3A%22dd04lz1gnd.mobirisesite.com%22%7D",
-    "gitHubName": "szekhelyszolgalatnet",
-    "gitHubPath": "bratislavasidlo-sk"
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
