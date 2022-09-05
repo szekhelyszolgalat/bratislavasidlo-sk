@@ -27,7 +27,9 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": true
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#c0e7f0"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.2",
@@ -516,7 +518,7 @@
             }
           },
           "_name": "header1",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Teljes képernyő\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Cím\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Alcím\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Szöveg\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Gombok\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Háttérkép\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x850.jpg\" parallax selected>\n            <input type=\"color\" title=\"Háttérszín\" value=\"#7f1933\">\n            <input type=\"video\" title=\"Háttérvideó\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Fedés\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Fedőszín\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Átlátszóság\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Virtuálne sídlo&nbsp;<br>v Bratislave 1</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">Uzatvorenie zmluvy online za 10 minút</h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Spoľahlivá služba s 10 ročnou skúsenosťou, spokojnými zákazníkmi, zárukou vrátenia peňazí.</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"index.html#pricing-tables1-1c\" data-app-placeholder=\"Type Text\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>\n                        Balíky, ceny</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Teljes képernyő\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Cím\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Alcím\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Szöveg\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Gombok\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Háttérkép\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x850.jpg\" parallax selected>\n            <input type=\"color\" title=\"Háttérszín\" value=\"#7f1933\">\n            <input type=\"video\" title=\"Háttérvideó\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Fedés\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Fedőszín\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Átlátszóság\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Virtuálne sídlo&nbsp;<br>v Bratislave 1</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">Uzatvorenie zmluvy online za 10 minút</h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Spoľahlivá služba s 10 ročnou skúsenosťou, spokojnými zákazníkmi, zárukou vrátenia peňazí.</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"index.html#pricing-tables1-22\" data-app-placeholder=\"Type Text\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>\n                        Balíky, ceny</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "rsvAT9WfX4",
           "_anchor": "header1-2",
           "_protectedParams": [],
@@ -964,122 +966,9 @@
           },
           "_name": "formbuilder",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"form\" group=\"Form\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Style</header>\n        <input type=\"checkbox\" name=\"customStyle\" title=\"Custom Style\">\n        <input type=\"checkbox\" name=\"disableElements\" title=\"Disable Control\">\n        <input type=\"color\" name=\"fieldColor\" title=\"Field\" value=\"#ffffff\" condition=\"customStyle\">\n        <input type=\"color\" name=\"fieldHover\" title=\"Field Hover\" value=\"#efefef\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderColor\" title=\"Border\" value=\"#cccccc\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderHover\" title=\"Border Hover\" value=\"#cccccc\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formText\" title=\"Szöveg\" value=\"#000000\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formFocusText\" title=\"Text Focus\" value=\"#232323\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formPlaceholder\" title=\"Placeholders\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formFocusPlaceholder\" title=\"Placeholders Focus\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Háttérkép\" value=\"../assets/background.jpg\">\n            <input type=\"color\" title=\"Háttérszín\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Fedés\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Fedőszín\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Átlátszóság\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay &amp;&amp; bg.type=='image')\"></div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div mbr-form=\"\" class=\"col-lg-8 mx-auto mbr-form\">\n<!--Formbuilder Form-->\n<form action=\"info@virtual-office-bratislava.com\" name=\"Individuálny balík\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"form-row\">\n<div hidden=\"hidden\" data-form-alert=\"\" class=\"alert alert-success col-12\">Ďakujeme za Váš záujem, naši pracovníci Vás budú čoskoro kontaktovať!</div>\n<div hidden=\"hidden\" data-form-alert-danger=\"\" class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n</div>\n<div class=\"dragArea form-row\">\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h4 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style\">Zostavenie individuálneho balíka</h4>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<p mbr-theme-style=\"display-7\" class=\"mbr-fonts-style\">Na základe poskytnutých údajov Vám naši pracovníci pripravia a zašlú zmluvu emailom.</p>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<hr>\n</div>\n<div data-for=\"Obchodné meno / Meno a priezvisko\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"Obchodné meno / Meno a priezvisko\" placeholder=\"Obchodné meno / Meno a priezvisko\" data-form-field=\"Obchodné meno / Meno a priezvisko\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value=\"\">\n</div>\n<div data-for=\"Email\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<input type=\"email\" name=\"Email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value=\"\">\n</div>\n<div data-for=\"Kontaktné tel. č.\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<input type=\"tel\" name=\"Kontaktné tel. č.\" placeholder=\"Kontaktné tel. č.\" pattern=\"*\" data-form-field=\"Kontaktné tel. č.\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"\">\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\" data-for=\"Konateľ\">\n<input type=\"text\" name=\"Konateľ\" placeholder=\"Konateľ\" data-form-field=\"Konateľ\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"\">\n</div>\n<div data-for=\"Povinné služby:\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n<label mbr-text=\"\" mbr-theme-style=\"display-7\" for=\"Povinné služby:\" class=\"mbr-fonts-style\">Povinné služby:</label>\n</div>\n<div class=\"form-check\">\n<input type=\"radio\" name=\"Povinné služby:\" data-form-field=\"Povinné služby:\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"Poskytnutie sídla spoločnosti, zabezpečenie firemnej tabule, označenie názvu spoločnosti na poštovej schránke\" checked=\"checked\">\n<label mbr-text=\"\" mbr-theme-style=\"display-7\" class=\"form-check-label\">Poskytnutie sídla spoločnosti, zabezpečenie firemnej tabule, označenie názvu spoločnosti na poštovej schránke</label>\n</div>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n<label mbr-text=\"\" mbr-theme-style=\"display-7\" for=\"Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ /mesiac\" class=\"mbr-fonts-style\">Voliteľné služby:</label>\n</div>\n<div data-for=\"Preberanie obyčajných (nedoporučených) zásielok - 3 € / mesiac\" class=\"form-check\">\n<input type=\"checkbox\" value=\"Yes\" name=\"Preberanie obyčajných (nedoporučených) zásielok - 3 € / mesiac\" data-form-field=\"Preberanie obyčajných (nedoporučených) zásielok - 3 € / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text=\"\" for=\"Preberanie obyčajných (nedoporučených) zásielok - 3 € / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-label\">Preberanie obyčajných (nedoporučených) zásielok - 3 € / mesiac</label>\n</div>\n<div data-for=\"Preberanie doporučených zásielok - 4 € / mesiac \" class=\"form-check\">\n<input type=\"checkbox\" value=\"Yes\" name=\"Preberanie doporučených zásielok - 4 € / mesiac \" data-form-field=\"Preberanie doporučených zásielok - 4 € / mesiac \" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text=\"\" for=\"Preberanie doporučených zásielok - 4 € / mesiac \" mbr-theme-style=\"display-7\" class=\"form-check-label\">Preberanie doporučených zásielok - 4 € / mesiac </label>\n</div>\n<div data-for=\"Neobmedzené skenovanie zásielok - 3 € / mesiac\" class=\"form-check\">\n<input type=\"checkbox\" value=\"Yes\" name=\"Neobmedzené skenovanie zásielok - 3 € / mesiac\" data-form-field=\"Neobmedzené skenovanie zásielok - 3 € / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text=\"\" for=\"Neobmedzené skenovanie zásielok - 3 € / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-label\">Neobmedzené skenovanie zásielok - 3 € / mesiac</label>\n</div>\n<div data-for=\"Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ / mesiac\" class=\"form-check\">\n<input type=\"checkbox\" value=\"Yes\" name=\"Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ / mesiac\" data-form-field=\"Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text=\"\" for=\"Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-label\">Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ / mesiac</label>\n</div>\n</div>\n<div data-for=\"Obdobie:\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n<label mbr-text=\"\" mbr-theme-style=\"display-7\" for=\"Obdobie:\" class=\"mbr-fonts-style\">Obdobie:</label>\n</div>\n<div class=\"form-check form-check-inline\">\n<input type=\"radio\" name=\"Obdobie:\" data-form-field=\"Obdobie:\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"6 mesiacov\" checked=\"checked\">\n<label mbr-text=\"\" mbr-theme-style=\"display-7\" class=\"form-check-label\">6 mesiacov</label>\n</div>\n<div class=\"form-check form-check-inline\">\n<input type=\"radio\" name=\"Obdobie:\" data-form-field=\"Obdobie:\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"12 mesiacov\">\n<label mbr-text=\"\" mbr-theme-style=\"display-7\" class=\"form-check-label\">12 mesiacov</label>\n</div>\n</div>\n<div data-for=\"textarea\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<textarea name=\"textarea\" placeholder=\"Poznámka\" data-form-field=\"textarea\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n</div>\n<div mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-auto\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"w-100 w-100 w-100 w-100 btn btn-primary\">Odoslať</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"form\" group=\"Form\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Style</header>\n        <input type=\"checkbox\" name=\"customStyle\" title=\"Custom Style\">\n        <input type=\"checkbox\" name=\"disableElements\" title=\"Disable Control\">\n        <input type=\"color\" name=\"fieldColor\" title=\"Field\" value=\"#ffffff\" condition=\"customStyle\">\n        <input type=\"color\" name=\"fieldHover\" title=\"Field Hover\" value=\"#efefef\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderColor\" title=\"Border\" value=\"#cccccc\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderHover\" title=\"Border Hover\" value=\"#cccccc\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formText\" title=\"Szöveg\" value=\"#000000\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formFocusText\" title=\"Text Focus\" value=\"#232323\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formPlaceholder\" title=\"Placeholders\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formFocusPlaceholder\" title=\"Placeholders Focus\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Háttérkép\" value=\"@PROJECT_PATH@/assets/images/mbr-1.jpg\">\n            <input type=\"color\" title=\"Háttérszín\" value=\"#c0e7f0\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Fedés\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Fedőszín\" name=\"overlayColor\" value=\"#55b4d4\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Átlátszóság\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div mbr-form class=\"col-lg-8 mx-auto mbr-form\">\n<!--Formbuilder Form-->\n<form action=\"info@virtual-office-bratislava.com\" name=\"Individuálny balík\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"form-row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Ďakujeme za Váš záujem, naši pracovníci Vás budú čoskoro kontaktovať!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n</div>\n<div class=\"dragArea form-row\">\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h4 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style\">Zostavenie individuálneho balíka</h4>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<p mbr-theme-style=\"display-7\" class=\"mbr-fonts-style\">Na základe poskytnutých údajov Vám naši pracovníci pripravia a zašlú zmluvu emailom.</p>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<hr>\n</div>\n<div data-for=\"Obchodné meno / Meno a priezvisko\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"Obchodné meno / Meno a priezvisko\" placeholder=\"Obchodné meno / Meno a priezvisko\" data-form-field=\"Obchodné meno / Meno a priezvisko\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"Email\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<input type=\"email\" name=\"Email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"Kontaktné tel. č.\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<input type=\"tel\" name=\"Kontaktné tel. č.\" placeholder=\"Kontaktné tel. č.\" pattern=\"*\" data-form-field=\"Kontaktné tel. č.\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\" data-for=\"Konateľ\">\n<input type=\"text\" name=\"Konateľ\" placeholder=\"Konateľ\" data-form-field=\"Konateľ\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"Povinné služby:\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"Povinné služby:\" class=\"mbr-fonts-style\">Povinné služby:</label>\n</div>\n<div class=\"form-check\">\n<input type=\"radio\" name=\"Povinné služby:\" data-form-field=\"Povinné služby:\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"Poskytnutie sídla spoločnosti, zabezpečenie firemnej tabule, označenie názvu spoločnosti na poštovej schránke\" checked>\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">Poskytnutie sídla spoločnosti, zabezpečenie firemnej tabule, označenie názvu spoločnosti na poštovej schránke</label>\n</div>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ /mesiac\" class=\"mbr-fonts-style\">Voliteľné služby:</label>\n</div>\n<div data-for=\"Preberanie obyčajných (nedoporučených) zásielok - 3 € / mesiac\" class=\"form-check\">\n<input type=\"checkbox\" value=\"Yes\" name=\"Preberanie obyčajných (nedoporučených) zásielok - 3 € / mesiac\" data-form-field=\"Preberanie obyčajných (nedoporučených) zásielok - 3 € / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"Preberanie obyčajných (nedoporučených) zásielok - 3 € / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-label\">Preberanie obyčajných (nedoporučených) zásielok - 3 € / mesiac</label>\n</div>\n<div data-for=\"Preberanie doporučených zásielok - 4 € / mesiac \" class=\"form-check\">\n<input type=\"checkbox\" value=\"Yes\" name=\"Preberanie doporučených zásielok - 4 € / mesiac \" data-form-field=\"Preberanie doporučených zásielok - 4 € / mesiac \" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"Preberanie doporučených zásielok - 4 € / mesiac \" mbr-theme-style=\"display-7\" class=\"form-check-label\">Preberanie doporučených zásielok - 4 € / mesiac </label>\n</div>\n<div data-for=\"Neobmedzené skenovanie zásielok - 3 € / mesiac\" class=\"form-check\">\n<input type=\"checkbox\" value=\"Yes\" name=\"Neobmedzené skenovanie zásielok - 3 € / mesiac\" data-form-field=\"Neobmedzené skenovanie zásielok - 3 € / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"Neobmedzené skenovanie zásielok - 3 € / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-label\">Neobmedzené skenovanie zásielok - 3 € / mesiac</label>\n</div>\n<div data-for=\"Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ / mesiac\" class=\"form-check\">\n<input type=\"checkbox\" value=\"Yes\" name=\"Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ / mesiac\" data-form-field=\"Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ / mesiac\" mbr-theme-style=\"display-7\" class=\"form-check-label\">Preposielanie zásielok poštou raz za mesiac (v SR) - 3€ / mesiac</label>\n</div>\n</div>\n<div data-for=\"Obdobie:\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"Obdobie:\" class=\"mbr-fonts-style\">Obdobie:</label>\n</div>\n<div class=\"form-check form-check-inline\">\n<input type=\"radio\" name=\"Obdobie:\" data-form-field=\"Obdobie:\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"6 mesiacov\" checked>\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">6 mesiacov</label>\n</div>\n<div class=\"form-check form-check-inline\">\n<input type=\"radio\" name=\"Obdobie:\" data-form-field=\"Obdobie:\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"12 mesiacov\">\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">12 mesiacov</label>\n</div>\n</div>\n<div data-for=\"textarea\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<textarea name=\"textarea\" placeholder=\"Poznámka\" data-form-field=\"textarea\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n</div>\n<div mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-auto\"><a type=\"submit\" class=\"w-100 w-100 w-100 w-100 btn btn-secondary\" data-app-placeholder=\"Type Text\">Odoslať</a></div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n        </div>\n    </div>\n</section>",
           "_cid": "teWWlsUM01",
           "_anchor": "formbuilder-1y",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "formbuilder",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            ".mbr-overlay": {
-              "background-color": "@overlayColor",
-              "opacity": "@overlayOpacity"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@customStyle)": {
-              ".form-control, .field-input": {
-                "padding": "0.5rem",
-                "background-color": "@fieldColor",
-                "border-color": "@borderColor",
-                "color": "@formText",
-                "transition": "0.4s",
-                "box-shadow": "none",
-                "outline": "none",
-                "input::-webkit-input-placeholder, textarea::-webkit-input-placeholder": {
-                  "color": "@formPlaceholder"
-                },
-                "input:-moz-placeholder, textarea:-moz-placeholder": {
-                  "color": "@formPlaceholder"
-                },
-                "&:hover, &:focus": {
-                  "background-color": "@fieldHover",
-                  "border-color": "@borderHover",
-                  "color": "contrast(@formText, #000000, #ffffff, 30%)",
-                  "box-shadow": "none",
-                  "outline": "none",
-                  "input::-webkit-input-placeholder, textarea::-webkit-input-placeholder": {
-                    "color": "contrast(@formPlaceholder, #000000, #ffffff, 30%)"
-                  },
-                  "input:-moz-placeholder, textarea:-moz-placeholder": {
-                    "color": "contrast(@formPlaceholder, #000000, #ffffff, 30%)"
-                  }
-                }
-              },
-              ".jq-number__spin:hover, .jq-number__spin:focus": {
-                "background-color": "@fieldHover",
-                "border-color": "@borderHover",
-                "color": "contrast(@formText, #000000, #ffffff, 30%)",
-                "box-shadow": "none",
-                "outline": "none"
-              },
-              ".jq-number__spin": {
-                "background-color": "@fieldColor",
-                "border-color": "@borderColor",
-                "color": "@formText",
-                "transition": "0.4s",
-                "box-shadow": "none",
-                "outline": "none"
-              },
-              ".jq-selectbox li, .jq-selectbox li": {
-                "background-color": "@fieldColor",
-                "color": "contrast(@fieldColor, #000000, #ffffff, 30%)"
-              },
-              ".jq-selectbox li:hover, .jq-selectbox li.selected": {
-                "background-color": "@fieldHover",
-                "color": "contrast(@fieldHover, #000000, #ffffff, 30%)"
-              },
-              ".jq-selectbox:hover .jq-selectbox__trigger-arrow, .jq-number__spin.minus:hover:after, .jq-number__spin.plus:hover:after": {
-                "border-top-color": "@fieldColor",
-                "border-bottom-color": "@fieldColor"
-              },
-              ".jq-selectbox .jq-selectbox__trigger-arrow, .jq-number__spin.minus:after, .jq-number__spin.plus:after": {
-                "border-top-color": "@fieldHover",
-                "border-bottom-color": "@fieldHover"
-              }
-            },
-            "& when (@customStyle), (@disableElements)": {
-              "input::-webkit-clear-button": {
-                "display": "none"
-              },
-              "input::-webkit-inner-spin-button": {
-                "display": "none"
-              },
-              "input::-webkit-outer-spin-button": {
-                "display": "none"
-              },
-              "input::-webkit-calendar-picker-indicator": {
-                "display": "none"
-              }
-            },
-            "P": {
-              "color": "#232323",
-              "text-align": "center"
-            },
-            "H5": {
-              "color": "#232323",
-              "text-align": "center"
-            }
-          },
-          "_name": "formbuilder",
-          "_customHTML": "<section class=\"form\" group=\"Form\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <header>Style</header>\n        <input type=\"checkbox\" name=\"customStyle\" title=\"Custom Style\" checked>\n        <input type=\"checkbox\" name=\"disableElements\" title=\"Disable Control\">\n        <input type=\"color\" name=\"fieldColor\" title=\"Field\" value=\"#ffffff\" condition=\"customStyle\">\n        <input type=\"color\" name=\"fieldHover\" title=\"Field Hover\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderColor\" title=\"Border\" value=\"#cccccc\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderHover\" title=\"Border Hover\" value=\"#000000\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formText\" title=\"Szöveg\" value=\"#000000\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formPlaceholder\" title=\"Placeholders\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Háttérkép\" value=\"@PROJECT_PATH@/assets/images/mbr-4-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Háttérszín\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Fedés\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Fedőszín\" name=\"overlayColor\" value=\"#b2ccd2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Átlátszóság\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div mbr-form class=\"col-lg-8 mx-auto mbr-form\">\n<!--Formbuilder Form-->\n<form action=\"info@virtual-office-bratislava.com\" name=\"Üzenet a weboldalon keresztül\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"form-row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Ďakujeme za vyplnenie, náš kolega Vás bude čoskoro kontaktovať!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n</div>\n<div class=\"dragArea form-row\">\n<div class=\"col-lg-12\">\n<h5 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style\">Máte otázky? Radi Vám odpovieme.</h5>\n</div>\n<div class=\"col-lg-12\">\n<p mbr-theme-style=\"display-7\" class=\"mbr-fonts-style\">Zadajte svoje kontaktné údaje a čoskoro Vás budeme kontaktovať.</p>\n</div>\n<div data-for=\"Meno a priezvisko*\" class=\"col-lg-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"Meno a priezvisko*\" placeholder=\"Meno a priezvisko*\" data-form-field=\"Meno a priezvisko*\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"Email*\" class=\"col-lg-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"Email*\" placeholder=\"Emailová adresa*\" data-form-field=\"Email*\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"Telefon\" class=\"col-lg-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"Telefon\" placeholder=\"Telefón\" data-form-field=\"Telefon\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"Üzenet\" class=\"col-lg-12 col-sm-12 form-group\">\n<textarea name=\"Üzenet\" placeholder=\"Správa\" data-form-field=\"Megjegyzés\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n</div>\n<div class=\"col-lg-12\">\n<hr>\n</div>\n<div class=\"col-auto\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Poslať</a></div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n        </div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "formbuilder-1q",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "sdz0adLGsm",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1463,6 +1352,119 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sdz5KoQe5D",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "formbuilder",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            ".mbr-overlay": {
+              "background-color": "@overlayColor",
+              "opacity": "@overlayOpacity"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@customStyle)": {
+              ".form-control, .field-input": {
+                "padding": "0.5rem",
+                "background-color": "@fieldColor",
+                "border-color": "@borderColor",
+                "color": "@formText",
+                "transition": "0.4s",
+                "box-shadow": "none",
+                "outline": "none",
+                "input::-webkit-input-placeholder, textarea::-webkit-input-placeholder": {
+                  "color": "@formPlaceholder"
+                },
+                "input:-moz-placeholder, textarea:-moz-placeholder": {
+                  "color": "@formPlaceholder"
+                },
+                "&:hover, &:focus": {
+                  "background-color": "@fieldHover",
+                  "border-color": "@borderHover",
+                  "color": "contrast(@formText, #000000, #ffffff, 30%)",
+                  "box-shadow": "none",
+                  "outline": "none",
+                  "input::-webkit-input-placeholder, textarea::-webkit-input-placeholder": {
+                    "color": "contrast(@formPlaceholder, #000000, #ffffff, 30%)"
+                  },
+                  "input:-moz-placeholder, textarea:-moz-placeholder": {
+                    "color": "contrast(@formPlaceholder, #000000, #ffffff, 30%)"
+                  }
+                }
+              },
+              ".jq-number__spin:hover, .jq-number__spin:focus": {
+                "background-color": "@fieldHover",
+                "border-color": "@borderHover",
+                "color": "contrast(@formText, #000000, #ffffff, 30%)",
+                "box-shadow": "none",
+                "outline": "none"
+              },
+              ".jq-number__spin": {
+                "background-color": "@fieldColor",
+                "border-color": "@borderColor",
+                "color": "@formText",
+                "transition": "0.4s",
+                "box-shadow": "none",
+                "outline": "none"
+              },
+              ".jq-selectbox li, .jq-selectbox li": {
+                "background-color": "@fieldColor",
+                "color": "contrast(@fieldColor, #000000, #ffffff, 30%)"
+              },
+              ".jq-selectbox li:hover, .jq-selectbox li.selected": {
+                "background-color": "@fieldHover",
+                "color": "contrast(@fieldHover, #000000, #ffffff, 30%)"
+              },
+              ".jq-selectbox:hover .jq-selectbox__trigger-arrow, .jq-number__spin.minus:hover:after, .jq-number__spin.plus:hover:after": {
+                "border-top-color": "@fieldColor",
+                "border-bottom-color": "@fieldColor"
+              },
+              ".jq-selectbox .jq-selectbox__trigger-arrow, .jq-number__spin.minus:after, .jq-number__spin.plus:after": {
+                "border-top-color": "@fieldHover",
+                "border-bottom-color": "@fieldHover"
+              }
+            },
+            "& when (@customStyle), (@disableElements)": {
+              "input::-webkit-clear-button": {
+                "display": "none"
+              },
+              "input::-webkit-inner-spin-button": {
+                "display": "none"
+              },
+              "input::-webkit-outer-spin-button": {
+                "display": "none"
+              },
+              "input::-webkit-calendar-picker-indicator": {
+                "display": "none"
+              }
+            },
+            "P": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            "H5": {
+              "color": "#232323",
+              "text-align": "center"
+            }
+          },
+          "_name": "formbuilder",
+          "_customHTML": "<section class=\"form\" group=\"Form\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <header>Style</header>\n        <input type=\"checkbox\" name=\"customStyle\" title=\"Custom Style\" checked>\n        <input type=\"checkbox\" name=\"disableElements\" title=\"Disable Control\">\n        <input type=\"color\" name=\"fieldColor\" title=\"Field\" value=\"#ffffff\" condition=\"customStyle\">\n        <input type=\"color\" name=\"fieldHover\" title=\"Field Hover\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderColor\" title=\"Border\" value=\"#cccccc\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderHover\" title=\"Border Hover\" value=\"#000000\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formText\" title=\"Szöveg\" value=\"#000000\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formPlaceholder\" title=\"Placeholders\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Háttérkép\" value=\"@PROJECT_PATH@/assets/images/mbr-4-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Háttérszín\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Fedés\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Fedőszín\" name=\"overlayColor\" value=\"#b2ccd2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Átlátszóság\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div mbr-form class=\"col-lg-8 mx-auto mbr-form\">\n<!--Formbuilder Form-->\n<form action=\"info@virtual-office-bratislava.com\" name=\"Üzenet a weboldalon keresztül\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"form-row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Ďakujeme za vyplnenie, náš kolega Vás bude čoskoro kontaktovať!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n</div>\n<div class=\"dragArea form-row\">\n<div class=\"col-lg-12\">\n<h5 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style\">Máte otázky? Radi Vám odpovieme.</h5>\n</div>\n<div class=\"col-lg-12\">\n<p mbr-theme-style=\"display-7\" class=\"mbr-fonts-style\">Zadajte svoje kontaktné údaje a čoskoro Vás budeme kontaktovať.</p>\n</div>\n<div data-for=\"Meno a priezvisko*\" class=\"col-lg-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"Meno a priezvisko*\" placeholder=\"Meno a priezvisko*\" data-form-field=\"Meno a priezvisko*\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"Email*\" class=\"col-lg-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"Email*\" placeholder=\"Emailová adresa*\" data-form-field=\"Email*\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"Telefon\" class=\"col-lg-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"Telefon\" placeholder=\"Telefón\" data-form-field=\"Telefon\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"Üzenet\" class=\"col-lg-12 col-sm-12 form-group\">\n<textarea name=\"Üzenet\" placeholder=\"Správa\" data-form-field=\"Megjegyzés\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n</div>\n<div class=\"col-lg-12\">\n<hr>\n</div>\n<div class=\"col-auto\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Poslať</a></div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "formbuilder-1q",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sdz0adLGsm",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
