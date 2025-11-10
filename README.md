@@ -1,2 +1,2 @@
-# bratislavasidlo-sk
+# szlovak-szekhely-hu
 GitHub Pages
